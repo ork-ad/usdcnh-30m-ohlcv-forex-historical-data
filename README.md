@@ -1,6 +1,6 @@
 # USDCNH 30m OHLCV Forex Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-9_392_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-177_350_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full USDCNH dataset on ork.ad**](https://ork.ad/)
 
@@ -24,11 +24,11 @@
 - **Ultra high-quality 30m OHLCV** for **US Dollar / Chinese Yuan** (Forex)
 - **24/5 FX liquidity with Asian, European and US sessions — not limited to US market hours**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`30m`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **9,392** `30m` rows in the full archive
+- **Free evaluation sample** on GitHub (`30m`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **177,350** `30m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `30m` sample updated in sync
 
-> **Sample on GitHub** · `USDCNH_30m.csv` (9,096 rows, `2025-10-02` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **9,392** `30m` rows (~0.6 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2025-09-24` → `2026-07-02`.
+> **Sample on GitHub** · `USDCNH_30m.csv` (9,218 rows, `2025-10-03` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **177,350** `30m` rows (~10.15 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2012-02-19` → `2026-07-03`.
 
 ## Download sample
 
@@ -44,9 +44,9 @@ Interactive chart & stats: **[https://ork-ad.github.io/usdcnh-30m-ohlcv-forex-hi
 |---|--:|---|
 | Instrument | US Dollar / Chinese Yuan · Forex | US Dollar / Chinese Yuan · Forex |
 | Timeframes | `30m` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 30m rows | 9,096 | **9,392** |
-| Size | 0.58 MB | ~0.6 MB |
-| Period | `2025-10-02` → `2026-07-02` | `2025-09-24` → `2026-07-02` |
+| 30m rows | 9,218 | **177,350** |
+| Size | 0.54 MB | ~10.15 MB |
+| Period | `2025-10-03` → `2026-07-03` | `2012-02-19` → `2026-07-03` |
 | File | `USDCNH_30m.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`USDCNH_30m.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2025-10-02T22:30:00Z | 7.131191 | 7.134171 | 7.130371 | 7.133721 | 1491.0 |
-| 2025-10-02T23:00:00Z | 7.133721 | 7.134321 | 7.131121 | 7.132031 | 1269.0 |
-| 2025-10-02T23:30:00Z | 7.132031 | 7.132181 | 7.129822594312969 | 7.132031 | 1050.0 |
-| 2025-10-03T00:00:00Z | 7.132031 | 7.13437 | 7.132011 | 7.134171 | 2432.0 |
-| 2025-10-03T00:30:00Z | 7.134171 | 7.13467 | 7.133991 | 7.134451 | 2411.0 |
+| 2025-10-03T20:30:00Z | 7.13617 | 7.136563585 | 7.13153 | 7.13625 | 1052.0 |
+| 2025-10-05T21:00:00Z | 7.13651358 | 7.13651358 | 7.13455 | 7.13607 | 409.0 |
+| 2025-10-05T21:30:00Z | 7.13607 | 7.13613 | 7.133323261 | 7.13368 | 403.0 |
+| 2025-10-05T22:00:00Z | 7.13368 | 7.13833 | 7.13368 | 7.137733702 | 921.0 |
+| 2025-10-05T22:30:00Z | 7.137733702 | 7.13922 | 7.1374 | 7.13822 | 563.0 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-02T20:30:00Z | 6.78754 | 6.78847 | 6.78683 | 6.78844 | 464.0 |
-| 2026-07-02T21:00:00Z | 6.78844 | 6.78844 | 6.78327 | 6.78415 | 235.0 |
-| 2026-07-02T21:30:00Z | 6.78415 | 6.78643 | 6.78367 | 6.78423 | 2419.0 |
-| 2026-07-02T22:00:00Z | 6.78423 | 6.78713 | 6.78423 | 6.78697 | 1148.0 |
+| 2026-07-03T18:30:00Z | 6.78533 | 6.78562 | 6.78533 | 6.78559 | 226.0 |
+| 2026-07-03T19:00:00Z | 6.78559 | 6.7859 | 6.78526 | 6.78527 | 436.0 |
+| 2026-07-03T19:30:00Z | 6.78527 | 6.78582 | 6.78523 | 6.78581 | 168.0 |
+| 2026-07-03T20:00:00Z | 6.78581 | 6.7866 | 6.78575 | 6.78643 | 206.0 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **USDCNH** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **9,392** rows at `30m`, plus all other timeframes in the same ZIP.
+The complete **USDCNH** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **177,350** rows at `30m`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full USDCNH dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · USDCNH 30m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · USDCNH 30m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
